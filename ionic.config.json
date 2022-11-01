@@ -1,0 +1,7 @@
+{
+  "name": "App Couteau",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
