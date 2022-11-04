@@ -1,0 +1,50 @@
+<ion-content>
+  <h1 class="titulo">Clima</h1>
+  <a href="/main-page">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </a>
+  <ion-card class="PrimerCuadro">
+    <ion-item lines="none">
+      <p style="color: white; font-weight:300">Fecha de Hoy</p>
+      <ion-label slot="end" style="color:#aa6336;"> {{TiempoActual | date: "EEE MMM dd "}}</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <span id="temp">
+        {{(TemperaturaClima?.temp - 273.15).toFixed(0)}}
+      </span>
+      <span style=
+      "font-size: 2em; 
+      color:#aa6336;
+      position:relative;
+      bottom:12px;
+      ">o</span>
+      <img slot="end" [src]=IconoClima>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="location" class="icon-locaction" style="color: #aa6336;"></ion-icon>
+      <span id="NombreCiudad">{{NombreCiudad}}</span>
+    </ion-item>
+  </ion-card>
+  <ion-card class="SegundoCuadro">
+    <ion-item>
+      <span>Sensación Termica</span>
+      <span slot="end">{{(TemperaturaClima?.feels_like - 273.15).toFixed(0)}}</span>
+    </ion-item>
+    <ion-item>
+      <span>Temperatura Máxima</span>
+      <span slot="end">{{(TemperaturaClima?.temp_max - 273.15).toFixed(0)}}</span>
+    </ion-item>
+    <ion-item>
+      <span>Temperatura Mínima</span>
+      <span slot="end">{{(TemperaturaClima?.temp_min - 273.15).toFixed(0)}}</span>
+    </ion-item>
+    <ion-item>
+      <span>Humedad</span>
+      <span slot="end">{{TemperaturaClima?.humidity}}%</span>
+    </ion-item>
+    <ion-item>
+      <span>Presión Atmósferica</span>
+      <span slot="end">{{TemperaturaClima?.pressure}}</span>
+    </ion-item>
+  </ion-card>
+</ion-content>

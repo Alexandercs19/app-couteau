@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    position: relative;
+    top: 4%;
+}
+
+ion-item{
+    position: relative;
+    top: 20%;
+}
+
+ion-icon{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 22px;
+    bottom: 18px;
+
+    
+}
+
+a{
+    color: black;
+}
+
+.boton{
+    position: relative;
+    top: 180px;
+    left: 30%;
+
+}

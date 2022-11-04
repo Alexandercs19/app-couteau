@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo {
+    font-size: 35px;
+    font-weight: 300;
+    color: black;
+    padding: 5px;
+    margin: 8px;
+    position: absolute;
+    top: 40px;
+}
+
+.people-outline {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 260px;
+    left: 10px;
+    transition: .2s;
+    
+}
+
+.accessibility-sharp {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 260px;
+    left: 15px;
+    transition: .2s;
+
+}
+
+.sunny-sharp {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 260px;
+    left: 10px;
+    transition: .2s;
+}
+
+
+.book-sharp {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 300px;
+    left: 10px;
+    transition: .2s;
+
+}
+
+.briefcase-sharp {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 300px;
+    left: 15px;
+    transition: .2s;
+}
+
+a {
+    color: black;
+}
+
+.container-iconos:hover a{
+    filter: blur(2px);
+    transform: translateY(-3px) scale(1.05);
+}
+
+.container-iconos a:hover {
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.people-outline:hover{
+    color: pink;
+}
+.accessibility-sharp:hover{
+    color: orange;
+}
+
+.sunny-sharp:hover{
+    color: yellow;
+}
+
+.book-sharp:hover {
+    transition: .2s;
+    color: green;
+}
+
+.briefcase-sharp:hover{
+    color: brown;
+}

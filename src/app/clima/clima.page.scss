@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    position: relative;
+    top: 4%;
+}
+
+ion-item{
+    position: relative;
+    top: 15%;
+}
+
+ion-icon{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 22px;
+    bottom: 18px;
+
+    
+}
+
+a{
+    color: black;
+}
+
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+#NombreCiudad{
+    font-size: small;
+    position: relative;
+    right: 38px;
+}
+
+.icon-locaction{
+
+    width: 90px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+}
+
+.PrimerCuadro{
+    border-radius: 20px;
+    --ion-background-color: #d2a985;
+    
+    span{
+        color: white;
+        font-weight: 300;
+    }
+
+    #temp{
+        font-weight: 300;
+        font-size: 4em;
+        margin: 5px;
+    }
+}
+
+.SegundoCuadro{
+    border-radius: 20px;
+    --ion-background-color: #d2a985;
+    span{
+        color: white;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,16 @@
+<ion-content>
+<h1 class="titulo">Predecir Genero</h1>
+<a href="/main-page"><ion-icon name="arrow-back-outline"></ion-icon></a>
+<ion-item>
+  <ion-label position="floating">Ingrese un Nombre</ion-label>
+  <ion-input [(ngModel)]="Nombre"></ion-input>
+   
+   <p *ngIf="Genre === 'male'" style="color: blue; font-size:25px">Hombre</p>
+   <p *ngIf="Genre   === 'female'" style="color: pink; font-size:25px">Mujer</p>
+</ion-item>
+<ion-button class="boton" shape="round" (click)="genero()">Predecir</ion-button>
+</ion-content>
+
+
+
+

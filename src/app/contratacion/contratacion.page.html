@@ -1,0 +1,52 @@
+
+<ion-content>
+  <h1 class="titulo">Contratación</h1>
+  <a href="/main-page">
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </a>
+  <div class="container-card">
+    <ion-card>
+      <img alt="Deivi" src="assets/icon/foto1.jpg" />
+      <ion-item>
+        <ion-label><b>Nombres:</b></ion-label>
+        <ion-textarea [readonly]="true" placeholder="Deivi Alexander"></ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label><b>Apellidos:</b></ion-label>
+        <ion-textarea [readonly]="true" placeholder="Cruz Serrata"></ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label><b>Fecha de Nacimiento:</b></ion-label>
+        <ion-textarea [readonly]="true" placeholder="19 de Marzo 2002"></ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label><b>Pais de Nacimiento:</b></ion-label>
+        <ion-textarea [readonly]="true" placeholder="Republica Dominicana"></ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label><b>Ciudad:</b></ion-label>
+        <ion-textarea [readonly]="true" placeholder="Santo Domingo"></ion-textarea>
+      </ion-item>
+      <ion-item>
+        <ion-label><b>Carrera:</b></ion-label>
+        <ion-textarea [readonly]="true" placeholder="Desarrollador de Software"></ion-textarea>
+      </ion-item>
+    </ion-card>
+  </div>
+    <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+      <ion-fab-button>
+        <ion-icon name="chevron-up-circle"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="top">
+        <ion-fab-button>
+          <ion-icon name="document"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button>
+          <ion-icon name="color-palette"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button>
+          <ion-icon name="globe"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+</ion-content>
